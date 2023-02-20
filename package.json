@@ -1,0 +1,21 @@
+{
+  "name": "housingmarketnews",
+  "version": "1.0.0",
+  "description": "Housing Market News Feed powered by MERN",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyScott44/HousingMarketNews.git"
+  },
+  "keywords": [],
+  "author": "TonyScott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyScott44/HousingMarketNews/issues"
+  },
+  "homepage": "https://github.com/TonyScott44/HousingMarketNews#readme"
+}
