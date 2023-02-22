@@ -15,6 +15,7 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and view
 app.use(routes);
 
+mongoose.set("strictQuery", false);
 // Connect to the Mongo DB
 mongoose.connect('mongodb://127.0.0.1:27017/client');
 
