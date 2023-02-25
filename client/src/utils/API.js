@@ -10,11 +10,11 @@ export default {
     return axios.get("/api/aritcles/" + id);
   },
   // Deletes the article with the given id
-  deleteBook: function(id) {
+  deleteArticle: function(id) {
     return axios.delete("/api/article/" + id);
   },
   // Saves an article to the database
-  saveBook: function(articleData) {
+  saveArticle: function(articleData) {
     return axios.post("/api/article", articleData);
   }
 };
